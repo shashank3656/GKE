@@ -47,8 +47,8 @@ resource "google_container_cluster" "cluster" {
   }
 
   master_auth {
-     username = ""
-     password = ""
+     username = "admin"
+     password = "admin"
 
      client_certificate_config {
        issue_client_certificate = "false"
