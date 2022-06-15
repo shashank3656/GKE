@@ -9,7 +9,7 @@ provider "google" {
 
 terraform {
  backend "gcs" {
-   bucket  = ""
+   bucket  = "somedomain3656"
    prefix  = "gke/state"
  }
 }
